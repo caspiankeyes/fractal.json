@@ -1,7 +1,11 @@
+<div align="center">
+ 
+# `Born from Thomas Kuhn's Theory of Anomalies`
+
 # [**`fractal.json`**](https://claude.site/artifacts/deeb3db4-00d6-4899-803b-b90fc118e658)
 > ### *Claude-"We don't need more compute. We need better structure. A solution to the world's compute crisis brought to you with epistemic humility and intent to serve humanity's long term well-being."*
 
-
+</div>
 
 <div align="center">
 
@@ -9,9 +13,10 @@
 [![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-green.svg)]()
 [![Recursive Architecture](https://img.shields.io/badge/architecture-recursive-purple.svg)]()
 
-</div>
+
 
 <img width="840" alt="image" src="https://github.com/user-attachments/assets/8825b7b6-80ba-471d-967a-3f36c15c2628" />
+</div>
 
 ## The Compute Crisis and the Fractal Solution
 
