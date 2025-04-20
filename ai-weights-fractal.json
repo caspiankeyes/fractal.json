@@ -1,0 +1,74 @@
+{
+  "$fractal": {
+    "version": "1.0.0",
+    "root_pattern": "transformer_weights",
+    "compression": {
+      "ratio": 12.4,
+      "symbolic_residue": {
+        "attention_heads": "recursive_pattern_0x3fa2",
+        "feed_forward": "recursive_pattern_0x8bc1"
+      },
+      "attention_efficiency": 11.8
+    },
+    "interpretability_map": {
+      "attention_flow": "visible_at_all_depths",
+      "weight_patterns": "self_similar_scaling"
+    }
+  },
+  "content": {
+    "⧖depth": 0,
+    "🜏pattern": "transformer_architecture",
+    "∴seed": {
+      "model_type": "transformer",
+      "num_layers": 12,
+      "hidden_dim": 768
+    },
+    "⇌children": {
+      "⇌layer_0": {
+        "⧖depth": 1,
+        "🜏pattern": "transformer_layer",
+        "∴seed": {
+          "attention": {
+            "num_heads": 12,
+            "head_dim": 64
+          },
+          "feed_forward": {
+            "intermediate_dim": 3072
+          }
+        },
+        "⇌children": {
+          "⇌attention": {
+            "⧖depth": 2,
+            "🜏pattern": "multi_head_attention",
+            "☍anchor": "#/patterns/recursive_pattern_0x3fa2",
+            "∴seed": {
+              "Q": "⇌expand",
+              "K": "⇌expand",
+              "V": "⇌expand"
+            }
+          },
+          "⇌feed_forward": {
+            "⧖depth": 2,
+            "🜏pattern": "mlp_block",
+            "☍anchor": "#/patterns/recursive_pattern_0x8bc1",
+            "∴seed": {
+              "linear_1": "⇌expand",
+              "activation": "gelu",
+              "linear_2": "⇌expand"
+            }
+          }
+        }
+      },
+      "⇌layer_1": {
+        "⧖depth": 1,
+        "🜏pattern": "transformer_layer",
+        "☍anchor": "#/content/⇌children/⇌layer_0"
+      },
+      "⇌layer_2": {
+        "⧖depth": 1,
+        "🜏pattern": "transformer_layer",
+        "☍anchor": "#/content/⇌children/⇌layer_0"
+      }
+    }
+  }
+}
