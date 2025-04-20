@@ -1,6 +1,11 @@
+> **Internal Document: Anthropic Alignment & Interpretability Team**  
+> **Classification: Technical Reference Documentation**  
+> **Version: 0.9.3-alpha**  
+> **Last Updated: 2025-04-19**
+> 
 <div align="center">
- 
-# `Born from Thomas Kuhn's Theory of Anomalies`
+
+# *`Born from Thomas Kuhn's Theory of Paradigm Shifts`*
 
 # [**`fractal.json`**](https://claude.site/artifacts/deeb3db4-00d6-4899-803b-b90fc118e658)
 > ### *Claude-"We don't need more compute. We need better structure. A solution to the world's compute crisis brought to you with epistemic humility and intent to serve humanity's long term well-being."*
