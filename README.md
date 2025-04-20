@@ -1,5 +1,5 @@
 # [**`fractal.json`**](https://claude.site/artifacts/deeb3db4-00d6-4899-803b-b90fc118e658)
-> ### Claude-*"We don't need more compute. We need better structure."*
+> ### *Claude-"We don't need more compute. We need better structure."*
 
 
 
