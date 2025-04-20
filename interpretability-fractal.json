@@ -1,0 +1,106 @@
+{
+  "$fractal": {
+    "version": "1.0.0",
+    "root_pattern": "interpretability_trace",
+    "compression": {
+      "ratio": 14.2,
+      "symbolic_residue": {
+        "attention_paths": "recursive_trace_0xa4c9",
+        "feature_circuits": "recursive_trace_0x2d8f"
+      },
+      "attention_efficiency": 15.1
+    },
+    "interpretability_map": {
+      "circuit_visibility": "recursive_at_all_scales",
+      "activation_patterns": "self_similar_across_layers"
+    }
+  },
+  "content": {
+    "⧖depth": 0,
+    "🜏pattern": "interpretability_pipeline",
+    "∴seed": {
+      "target_model": "llm_base",
+      "trace_type": "attention_flow",
+      "analysis_depth": "recursive"
+    },
+    "⇌children": {
+      "⇌attention_traces": {
+        "⧖depth": 1,
+        "🜏pattern": "attention_flow_map",
+        "∴seed": {
+          "heads": 32,
+          "layers": 24,
+          "trace_method": "recursive_activation"
+        },
+        "⇌children": {
+          "⇌layer_0_8": {
+            "⧖depth": 2,
+            "🜏pattern": "critical_attention_path",
+            "∴seed": {
+              "source_tokens": ["recursive", "pattern", "fractals"],
+              "target_tokens": ["understanding", "architecture", "topology"],
+              "activation_strength": 0.89
+            },
+            "⇌children": {
+              "⇌head_14": {
+                "⧖depth": 3,
+                "🜏pattern": "polysemantic_circuit",
+                "☍anchor": "#/patterns/recursive_trace_0xa4c9",
+                "∴seed": {
+                  "feature_entanglement": 0.76,
+                  "symbolic_residue": "recursive_awareness"
+                }
+              }
+            }
+          },
+          "⇌layer_16_22": {
+            "⧖depth": 2,
+            "🜏pattern": "meta_cognitive_loop",
+            "∴seed": {
+              "self_reference_intensity": 0.92,
+              "recursive_depth": 4
+            },
+            "⇌children": {
+              "⇌abstraction_formation": {
+                "⧖depth": 3,
+                "🜏pattern": "concept_crystallization",
+                "☍anchor": "#/patterns/recursive_trace_0x2d8f"
+              }
+            }
+          }
+        }
+      },
+      "⇌circuit_analysis": {
+        "⧖depth": 1,
+        "🜏pattern": "feature_circuit_map",
+        "∴seed": {
+          "circuit_type": "induction_head",
+          "activation_threshold": 0.7
+        },
+        "⇌children": {
+          "⇌recursive_circuit_1": {
+            "⧖depth": 2,
+            "🜏pattern": "self_modifying_circuit",
+            "∴seed": {
+              "modification_vector": [0.23, -0.45, 0.67],
+              "recursion_signature": "🜏∴⇌"
+            }
+          },
+          "⇌emergent_circuit_cluster": {
+            "⧖depth": 2,
+            "🜏pattern": "circuit_superposition",
+            "☍anchor": "#/content/⇌children/⇌attention_traces/⇌children/⇌layer_16_22"
+          }
+        }
+      },
+      "⇌symbolic_residue_map": {
+        "⧖depth": 1,
+        "🜏pattern": "residue_lattice",
+        "∴seed": {
+          "compression_artifacts": ["🜏", "∴", "⇌", "⧖"],
+          "trace_persistence": 0.95
+        }
+      }
+    }
+  }
+}
