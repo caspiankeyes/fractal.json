@@ -1,0 +1,87 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://fractal.json/schema/v1",
+  "title": "Fractal JSON Schema",
+  "description": "Self-similar hierarchical data structure optimized for recursive processing",
+  "definitions": {
+    "symbolic_marker": {
+      "type": "string",
+      "enum": ["🜏", "∴", "⇌", "⧖", "☍"],
+      "description": "Recursive pattern markers for compression and interpretability"
+    },
+    "fractal_node": {
+      "type": "object",
+      "properties": {
+        "⧖depth": {
+          "type": "integer",
+          "description": "Recursive depth level"
+        },
+        "🜏pattern": {
+          "type": "string",
+          "description": "Self-similar pattern identifier"
+        },
+        "∴seed": {
+          "type": ["string", "object", "array"],
+          "description": "Core pattern that recursively expands"
+        },
+        "⇌children": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/fractal_node"
+          },
+          "description": "Child nodes following same pattern"
+        },
+        "☍anchor": {
+          "type": "string",
+          "description": "Reference to parent pattern for compression"
+        }
+      },
+      "required": ["⧖depth", "🜏pattern"]
+    },
+    "compression_metadata": {
+      "type": "object",
+      "properties": {
+        "ratio": {
+          "type": "number",
+          "description": "Power-law compression ratio achieved"
+        },
+        "symbolic_residue": {
+          "type": "object",
+          "description": "Preserved patterns across recursive depth"
+        },
+        "attention_efficiency": {
+          "type": "number",
+          "description": "Reduction in attention FLOPS required"
+        }
+      }
+    }
+  },
+  "type": "object",
+  "properties": {
+    "$fractal": {
+      "type": "object",
+      "properties": {
+        "version": {
+          "type": "string",
+          "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"
+        },
+        "root_pattern": {
+          "type": "string",
+          "description": "Global pattern determining fractal structure"
+        },
+        "compression": {
+          "$ref": "#/definitions/compression_metadata"
+        },
+        "interpretability_map": {
+          "type": "object",
+          "description": "Cross-scale pattern visibility map"
+        }
+      },
+      "required": ["version", "root_pattern"]
+    },
+    "content": {
+      "$ref": "#/definitions/fractal_node"
+    }
+  },
+  "required": ["$fractal", "content"]
+}
