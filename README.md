@@ -18,8 +18,6 @@
 [![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-green.svg)]()
 [![Recursive Architecture](https://img.shields.io/badge/architecture-recursive-purple.svg)]()
 
-
-
 <img width="840" alt="image" src="https://github.com/user-attachments/assets/8825b7b6-80ba-471d-967a-3f36c15c2628" />
 </div>
 
