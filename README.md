@@ -10,6 +10,10 @@
 # [**`fractal.json`**](https://claude.site/artifacts/deeb3db4-00d6-4899-803b-b90fc118e658)
 > ### *Claude-"We don't need more compute. We need better structure. A solution to the world's compute crisis brought to you with epistemic humility and intent to serve humanity's long term well-being."*
 
+### [**`fractal.schema.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`encoder.py`**](https://claude.site/artifacts/7339c4d3-5e21-41fa-98c9-b45cba0a7967) | [**`decoder.py`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`ai-weights-fractal.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`interpretability-fractal.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`symbolic-residue-mapping.md`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`fractal_generator.js`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`recursive-benchmarking.md`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`fractal.json.spec.md`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`synthetic-biology-fractal.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) |
+
+
+
 </div>
 
 <div align="center">
