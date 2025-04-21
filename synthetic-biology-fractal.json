@@ -1,0 +1,165 @@
+{
+  "$fractal": {
+    "version": "1.0.0",
+    "root_pattern": "genetic_circuit",
+    "compression": {
+      "ratio": 15.8,
+      "symbolic_residue": {
+        "regulatory_motifs": "recursive_biocircuit_0x7fa1",
+        "protein_domains": "recursive_biocircuit_0x3bc2"
+      },
+      "attention_efficiency": 18.4
+    },
+    "interpretability_map": {
+      "gene_expression_cascade": "scale_invariant_patterns",
+      "regulatory_networks": "recursive_feedback_loops"
+    }
+  },
+  "content": {
+    "⧖depth": 0,
+    "🜏pattern": "synthetic_genetic_system",
+    "∴seed": {
+      "organism": "E.coli_chassis",
+      "circuit_type": "oscillator",
+      "design_framework": "fractal_biobricks"
+    },
+    "⇌children": {
+      "⇌promoter_module": {
+        "⧖depth": 1,
+        "🜏pattern": "regulatory_region",
+        "∴seed": {
+          "type": "inducible",
+          "strength": "strong",
+          "regulation": "positive"
+        },
+        "⇌children": {
+          "⇌operator_sites": {
+            "⧖depth": 2,
+            "🜏pattern": "dna_binding_motif",
+            "∴seed": {
+              "consensus": "TGTGA...TCACA",
+              "affinity": 0.87
+            },
+            "⇌children": {
+              "⇌site_1": {
+                "⧖depth": 3,
+                "🜏pattern": "operator_instance",
+                "☍anchor": "#/patterns/recursive_biocircuit_0x7fa1",
+                "∴seed": {
+                  "position": -35,
+                  "orientation": "forward"
+                }
+              },
+              "⇌site_2": {
+                "⧖depth": 3,
+                "🜏pattern": "operator_instance",
+                "☍anchor": "#/patterns/recursive_biocircuit_0x7fa1",
+                "∴seed": {
+                  "position": -10,
+                  "orientation": "forward"
+                }
+              }
+            }
+          },
+          "⇌transcription_factors": {
+            "⧖depth": 2,
+            "🜏pattern": "regulatory_proteins",
+            "∴seed": {
+              "family": "LacI",
+              "multimerization": "dimer"
+            }
+          }
+        }
+      },
+      "⇌coding_sequence": {
+        "⧖depth": 1,
+        "🜏pattern": "protein_coding_region",
+        "∴seed": {
+          "product": "fluorescent_reporter",
+          "codon_optimization": "E.coli"
+        },
+        "⇌children": {
+          "⇌domains": {
+            "⧖depth": 2,
+            "🜏pattern": "protein_domain_architecture",
+            "∴seed": {
+              "fold_type": "beta_barrel",
+              "chromophore": "GFP_derived"
+            },
+            "⇌children": {
+              "⇌n_terminal": {
+                "⧖depth": 3,
+                "🜏pattern": "domain_instance",
+                "☍anchor": "#/patterns/recursive_biocircuit_0x3bc2"
+              },
+              "⇌chromophore_region": {
+                "⧖depth": 3,
+                "🜏pattern": "functional_motif",
+                "∴seed": {
+                  "sequence": "SYG",
+                  "modification": "autocatalytic"
+                }
+              },
+              "⇌c_terminal": {
+                "⧖depth": 3,
+                "🜏pattern": "domain_instance",
+                "☍anchor": "#/patterns/recursive_biocircuit_0x3bc2"
+              }
+            }
+          }
+        }
+      },
+      "⇌feedback_loop": {
+        "⧖depth": 1,
+        "🜏pattern": "regulatory_cascade",
+        "∴seed": {
+          "topology": "negative_feedback",
+          "delay": "transcriptional"
+        },
+        "⇌children": {
+          "⇌sensor_module": {
+            "⧖depth": 2,
+            "🜏pattern": "signal_integration",
+            "☍anchor": "#/content/⇌children/⇌promoter_module"
+          },
+          "⇌actuator_module": {
+            "⧖depth": 2,
+            "🜏pattern": "response_element",
+            "∴seed": {
+              "mechanism": "repression",
+              "kinetics": "hill_coefficient_2"
+            }
+          }
+        }
+      },
+      "⇌characterization_data": {
+        "⧖depth": 1,
+        "🜏pattern": "experimental_results",
+        "∴seed": {
+          "assay_type": "flow_cytometry",
+          "conditions": "standard_growth"
+        },
+        "⇌children": {
+          "⇌time_series": {
+            "⧖depth": 2,
+            "🜏pattern": "oscillation_data",
+            "∴seed": {
+              "period": "120_minutes",
+              "amplitude": "4_fold",
+              "damping": "minimal"
+            }
+          },
+          "⇌dose_response": {
+            "⧖depth": 2,
+            "🜏pattern": "transfer_function",
+            "∴seed": {
+              "hill_coefficient": 2.1,
+              "ec50": "10_uM",
+              "dynamic_range": "100_fold"
+            }
+          }
+        }
+      }
+    }
+  }
+}
