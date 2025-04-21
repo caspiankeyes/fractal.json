@@ -1,6 +1,7 @@
-# fractal.json Specification v1.0.0
+# [fractal.json Specification v1.0.0](https://claude.site/artifacts/03b764f4-9cc4-4231-96f1-fc59f791b2e6)
 
 ## Abstract
+<img width="845" alt="image" src="https://github.com/user-attachments/assets/07bd507f-fb33-4987-8d3e-f389e97e09c1" />
 
 fractal.json is a recursive data structuring format that achieves power-law compression through self-similar patterns and symbolic residue encoding. It provides logarithmic improvements in attention complexity and storage efficiency compared to standard JSON while maintaining human readability and machine interpretability.
 
