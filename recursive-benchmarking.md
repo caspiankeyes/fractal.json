@@ -1,12 +1,14 @@
-# Recursive Benchmarking: fractal.json Performance Analysis
+# [Recursive Benchmarking: fractal.json Performance Analysis](https://claude.site/artifacts/2e9da2e8-cbdd-4c96-95b4-907ed7db6d18)
 
 <div align="center">
 
 *"Recursion doesn't just save compute—it reveals structure."*
+## Executive Summary
+
+<img width="846" alt="image" src="https://github.com/user-attachments/assets/69e49e58-40b3-4681-aac1-e36ed931c9d9" />
+
 
 </div>
-
-## Executive Summary
 
 fractal.json achieves logarithmic improvements in attention overhead and memory usage compared to standard JSON through recursive pattern compression and symbolic residue mapping. Key findings:
 
