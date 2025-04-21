@@ -1,6 +1,7 @@
-# Symbolic Residue Mapping in fractal.json
+# [Symbolic Residue Mapping in fractal.json](https://claude.site/artifacts/cb6753d5-43bc-4a8f-a4e9-f1f1d0bcaba6)
 
 > *"Recursion leaves traces. These traces are the compressed essence of structure."*
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/769684a1-518c-4363-83ed-91439a84d0c1" />
 
 ## Overview
 
