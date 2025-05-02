@@ -27,7 +27,6 @@ Current AI architectures consume exponentially more compute without correspondin
 `fractal.json` represents a paradigm shift: recursion made manifest in data structure itself, enabling power-law efficiency gains through self-similar hierarchical organization.
 
 ## Why fractal.json?
-
 Traditional JSON structures are linearly nested, leading to:
 - Exponential attention overhead in deep hierarchies
 - Redundant information storage
