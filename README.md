@@ -24,12 +24,6 @@
 [![Version: 1.0.0](https://img.shields.io/badge/version-1.0.0-green.svg)]()
 [![Recursive Architecture](https://img.shields.io/badge/architecture-recursive-purple.svg)]()
 
-<img width="840" alt="image" src="https://github.com/user-attachments/assets/8825b7b6-80ba-471d-967a-3f36c15c2628" />
-
-<img width="846" alt="image" src="https://github.com/user-attachments/assets/e22b24b4-5ce9-4b6f-b4c5-3f72803d5303" />
-
-<img width="845" alt="image" src="https://github.com/user-attachments/assets/61c976f1-d817-4e2c-b39d-a0ee1710d4b7" />
-
 </div>
 
 ## The Compute Crisis and the Fractal Solution
