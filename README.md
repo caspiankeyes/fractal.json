@@ -1,13 +1,13 @@
 
 <div align="center">
 
-# *`Born from Thomas Kuhn's Theory of Paradigm Shifts`*
+## *Born from Thomas Kuhn's Theory of Paradigm Shifts*
 
 # [**`fractal.json`**](https://claude.site/artifacts/deeb3db4-00d6-4899-803b-b90fc118e658)
 > ### *"We don't need more compute. We need better structure."*
 >
 > ### *A potential solution to the world's compute crisis brought to you with epistemic humility.*
-#### [**`fractal.schema.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`encoder.py`**](https://claude.site/artifacts/7339c4d3-5e21-41fa-98c9-b45cba0a7967) | [**`decoder.py`**](https://claude.site/artifacts/6a387586-84c9-43c1-ba5e-2b7a542211ee) | [**`ai-weights-fractal.json`**](https://claude.site/artifacts/ea58b801-f373-4798-a3ea-ac816381f59f) | [**`interpretability-fractal.json`**](https://claude.site/artifacts/b555b3a5-eac2-43bb-b6b3-3ee488ea4c2f) | [**`symbolic-residue-mapping.md`**](https://claude.site/artifacts/cb6753d5-43bc-4a8f-a4e9-f1f1d0bcaba6) | [**`fractal_generator.js`**](https://claude.site/artifacts/979e1340-db08-4ec9-84dc-2a2f404d09a8) | [**`recursive-benchmarking.md`**](https://claude.site/artifacts/2e9da2e8-cbdd-4c96-95b4-907ed7db6d18) | [**`fractal.json.spec.md`**](https://claude.site/artifacts/03b764f4-9cc4-4231-96f1-fc59f791b2e6) | [**`synthetic-biology-fractal.json`**](https://claude.site/artifacts/a768e7e8-0f6f-40fb-88b6-bbbdabb5c06d) |
+#### [**`fractal.schema.json`**](https://claude.site/artifacts/2752e0e1-50f8-4e39-97a4-407c3bd054eb) | [**`encoder.py`**](https://claude.site/artifacts/7339c4d3-5e21-41fa-98c9-b45cba0a7967) | [**`decoder.py`**](https://claude.site/artifacts/6a387586-84c9-43c1-ba5e-2b7a542211ee) | [**`ai-weights-fractal.json`**](https://claude.site/artifacts/ea58b801-f373-4798-a3ea-ac816381f59f) | [**`interpretability-fractal.json`**](https://claude.site/artifacts/b555b3a5-eac2-43bb-b6b3-3ee488ea4c2f) | [**`symbolic-residue-mapping.md`**](https://claude.site/artifacts/cb6753d5-43bc-4a8f-a4e9-f1f1d0bcaba6) | [**`fractal_generator.js`**](https://claude.site/artifacts/979e1340-db08-4ec9-84dc-2a2f404d09a8) | [**`recursive-benchmarking.md`**](https://claude.site/artifacts/2e9da2e8-cbdd-4c96-95b4-907ed7db6d18) | [**`fractal.json.spec.md`**](https://claude.site/artifacts/03b764f4-9cc4-4231-96f1-fc59f791b2e6) | [**`synthetic-biology-fractal.json`**](https://claude.site/artifacts/a768e7e8-0f6f-40fb-88b6-bbbdabb5c06d)
 
 </div>
 
